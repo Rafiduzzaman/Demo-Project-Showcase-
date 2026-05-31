@@ -4,10 +4,10 @@
     "title": "Smart Insight Vision",
     "short": "Computer vision pipeline for automated visual inspection",
     "technologies": ["Python","PyTorch","FastAPI","Docker"],
-    "thumbnail": "/images/thumb1.svg",
+    "thumbnail": "/images/ai-vision.jpg",
     "screenshots": [
-      "/images/placeholder1.svg",
-      "/images/placeholder2.svg"
+      "/images/ai-vision.jpg",
+      "/images/automation-lab.jpg"
     ],
     "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
     "details": {
@@ -21,10 +21,10 @@
     "title": "LLM Agent Suite",
     "short": "Toolkit for building autonomous LLM agents",
     "technologies": ["Node","TypeScript","LLMs"],
-    "thumbnail": "/images/thumb2.svg",
+    "thumbnail": "/images/llm-workflow.jpg",
     "screenshots": [
-      "/images/placeholder2.svg",
-      "/images/placeholder1.svg"
+      "/images/llm-workflow.jpg",
+      "/images/automation-lab.jpg"
     ],
     "videoUrl": "",
     "details": {
@@ -38,9 +38,9 @@
     "title": "Portfolio UX Redesign",
     "short": "Design-focused portfolio revamp with animations",
     "technologies": ["React","Next.js","Tailwind","Framer Motion"],
-    "thumbnail": "/images/thumb1.svg",
+    "thumbnail": "/images/ux-redesign.jpg",
     "screenshots": [
-      "/images/placeholder1.svg"
+      "/images/ux-redesign.jpg"
     ],
     "videoUrl": "",
     "details": {

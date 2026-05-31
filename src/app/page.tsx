@@ -1,10 +1,12 @@
 "use client"
 
 import Link from 'next/link'
+import dynamic from 'next/dynamic'
 import React, { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import CarouselGallery from '../components/CarouselGallery'
 import ContactForm from '../components/ContactForm'
+const ThreeScene = dynamic(() => import('../components/ThreeScene'), { ssr: false })
 
 type Project = {
   slug: string
@@ -70,11 +72,17 @@ export default function Home() {
 
           <div className="lg:pl-8">
             {projects.length > 0 && (
-              <motion.div initial={{ scale: 0.98, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.6 }}>
-                <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-[0_30px_120px_rgba(0,0,0,0.45)]">
-                  <CarouselGallery images={projects.flatMap(p => (p as any).screenshots || [(p.thumbnail || '/images/placeholder.png')])} />
+              <>
+                <motion.div initial={{ scale: 0.98, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.6 }}>
+                  <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-[0_30px_120px_rgba(0,0,0,0.45)]">
+                    <CarouselGallery images={projects.flatMap(p => (p as any).screenshots || [(p.thumbnail || '/images/placeholder.png')])} />
+                  </div>
+                </motion.div>
+
+                <div className="mt-6">
+                  <ThreeScene />
                 </div>
-              </motion.div>
+              </>
             )}
           </div>
         </div>
@@ -108,7 +116,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="about" className="border-b border-white/10 bg-slate-900/70 py-20">
+      <section id="about" className="border-b border-white/10 bg-slate-900/70 py-20 scroll-mt-24">
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 lg:grid-cols-[0.95fr_1.05fr] lg:px-8">
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-fuchsia-300/80">About</p>
@@ -134,7 +142,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="projects" className="bg-slate-900/80 py-20">
+      <section id="projects" className="bg-slate-900/80 py-20 scroll-mt-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mb-8 flex items-end justify-between gap-6">
             <div>

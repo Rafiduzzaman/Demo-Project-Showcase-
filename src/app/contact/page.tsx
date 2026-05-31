@@ -5,7 +5,7 @@ import ContactForm from '../../components/ContactForm'
 
 export default function ContactPage() {
   return (
-    <div className="mx-auto min-h-screen max-w-7xl px-6 py-16 lg:px-8">
+    <div className="mx-auto min-h-screen max-w-7xl px-6 py-16 lg:px-8 scroll-mt-24">
       <div className="max-w-2xl">
         <p className="text-sm font-semibold uppercase tracking-[0.24em] text-cyan-300/80">Contact</p>
         <h1 className="mt-3 text-4xl font-bold text-white md:text-5xl">Start a project or ask a question</h1>
