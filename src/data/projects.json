@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "smart-insight-vision",
+    "title": "Smart Insight Vision",
+    "short": "Computer vision pipeline for automated visual inspection",
+    "technologies": ["Python","PyTorch","FastAPI","Docker"],
+    "thumbnail": "/images/thumb1.svg",
+    "screenshots": [
+      "/images/placeholder1.svg",
+      "/images/placeholder2.svg"
+    ],
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "details": {
+      "problem": "Manual inspection is slow and error-prone.",
+      "solution": "Automated detection system with continuous learning.",
+      "impact": "Reduced inspection time by 80% and defect escape by 90%."
+    }
+  },
+  {
+    "slug": "llm-agent-suite",
+    "title": "LLM Agent Suite",
+    "short": "Toolkit for building autonomous LLM agents",
+    "technologies": ["Node","TypeScript","LLMs"],
+    "thumbnail": "/images/thumb2.svg",
+    "screenshots": [
+      "/images/placeholder2.svg",
+      "/images/placeholder1.svg"
+    ],
+    "videoUrl": "",
+    "details": {
+      "problem": "Orchestrating multiple LLM workflows is hard.",
+      "solution": "A modular agent framework with observability.",
+      "impact": "Faster prototyping and reliable automation."
+    }
+  },
+  {
+    "slug": "portfolio-ux-redesign",
+    "title": "Portfolio UX Redesign",
+    "short": "Design-focused portfolio revamp with animations",
+    "technologies": ["React","Next.js","Tailwind","Framer Motion"],
+    "thumbnail": "/images/thumb1.svg",
+    "screenshots": [
+      "/images/placeholder1.svg"
+    ],
+    "videoUrl": "",
+    "details": {
+      "problem": "Old portfolio lacked polish.",
+      "solution": "Modern design system and micro-interactions.",
+      "impact": "Improved engagement and conversion."
+    }
+  }
+]

@@ -1,0 +1,355 @@
+AI/ML Portfolio Website – Requirement Document
+
+Project Overview
+
+Develop a modern and responsive portfolio website focused on showcasing 4+ years of experience in AI/ML engineering and custom AI-powered web applications.
+
+The website should present projects professionally with detailed case-study style pages, modern UI/UX, animations, and dynamic project management capabilities.
+
+The portfolio should be scalable so new projects can easily be added or removed in the future.
+
+Main Features
+
+1. Landing Page
+
+The website will have a single main landing page containing the following sections:
+
+Hero Section
+
+Name and professional title
+
+Short introduction/tagline
+
+CTA buttons:
+
+View Projects
+
+Contact
+
+Resume Download (optional)
+
+About Section
+
+Brief professional overview including:
+
+4+ years of AI/ML experience
+
+Expertise areas:
+
+AI/ML
+
+LLM Applications
+
+Computer Vision
+
+NLP
+
+AI Automation
+
+Custom AI SaaS
+
+Short technical background
+
+Skills / Technologies Section
+
+Display technologies and tools used.
+
+Example categories:
+
+AI/ML
+
+Frontend
+
+Backend
+
+Cloud/DevOps
+
+Example technologies:
+
+Python
+
+PyTorch
+
+TensorFlow
+
+OpenAI APIs
+
+LangChain
+
+FastAPI
+
+React
+
+Next.js
+
+Docker
+
+PostgreSQL
+
+AWS/GCP
+
+2. Dynamic Projects Showcase Section
+
+This will be the main section of the landing page.
+
+Requirements
+
+Projects displayed as modern interactive cards/boxes
+
+Responsive grid or canvas-style layout
+
+Smooth hover animations
+
+Each card includes:
+
+Project title
+
+Short description
+
+Technologies used
+
+Thumbnail image
+
+“View Project” button
+
+Dynamic Functionality
+
+Projects must be dynamically managed:
+
+Add new projects
+
+Edit projects
+
+Delete projects
+
+Automatically generate project pages/routes
+
+No manual page creation should be required.
+
+3. Individual Project Pages
+
+Each project should open on a separate dedicated page.
+
+Example Route
+
+/projects/project-name
+
+Each Project Page Should Include
+
+Project Header
+
+Project name
+
+Short tagline/banner
+
+Project Description
+
+Detailed explanation of:
+
+Problem
+
+Solution
+
+Features
+
+AI/ML implementation
+
+Business impact
+
+Technologies Used
+
+Display tech stack as badges/icons.
+
+Screenshots Section
+
+Multiple screenshots/gallery
+
+Responsive image viewer
+
+Video Demo Section
+
+Support:
+
+YouTube/Vimeo embeds
+
+Self-hosted MP4 videos
+
+Optional Sections
+
+Challenges & solutions
+
+GitHub repository
+
+Live demo link
+
+Navigation
+
+Back to Home/Projects button
+
+4. Contact Section
+
+Located at the bottom of the landing page.
+
+Contact Form Fields
+
+Name
+
+Email
+
+Message
+
+Features
+
+Form validation
+
+Success/error message
+
+Email integration
+
+Possible integrations:
+
+EmailJS
+
+Formspree
+
+Custom API
+
+5. Design & UI Requirements
+
+The design should feel:
+
+Modern
+
+Minimal
+
+Premium
+
+AI/Tech-focused
+
+Preferred Style
+
+Dark theme
+
+Smooth gradients
+
+Clean typography
+
+Interactive animations
+
+Glassmorphism/minimal UI
+
+Animations
+
+Smooth scrolling
+
+Fade-in transitions
+
+Card hover effects
+
+Page transitions
+
+6. Responsiveness
+
+The website must be fully responsive across:
+
+Desktop
+
+Laptop
+
+Tablet
+
+Mobile devices
+
+7. SEO & Performance
+
+SEO Requirements
+
+Dynamic meta tags
+
+Proper semantic structure
+
+OpenGraph support
+
+Sitemap & robots.txt
+
+Performance Requirements
+
+Fast loading
+
+Optimized images/videos
+
+Lazy loading
+
+Responsive assets
+
+8. Recommended Technology Stack
+
+Recommended Frontend
+
+Next.js
+
+TypeScript
+
+Tailwind CSS
+
+Framer Motion
+
+Recommended CMS / Dynamic Content Management
+
+Sanity CMS (recommended)
+
+Alternative:
+
+JSON/Markdown-based content system
+
+Hosting
+
+Vercel
+
+9. Suggested Project Structure
+
+src/
+
+├── app/
+
+├── components/
+
+├── projects/
+
+├── lib/
+
+├── styles/
+
+├── public/
+
+└── data/
+
+10. Final Recommendation
+
+Because the website requires:
+
+Dynamic project management
+
+Automatic project page generation
+
+Modern animations
+
+SEO optimization
+
+Scalability
+
+The recommended solution is:
+
+Next.js + TypeScript + Tailwind CSS + Sanity CMS + Framer Motion
+
+This setup provides:
+
+Professional scalability
+
+Excellent performance
+
+Easy future maintenance
+
+Modern premium UI
+
+Dynamic content management without manual coding for every new project.

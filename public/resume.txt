@@ -1,0 +1,16 @@
+Name: Jane Developer
+Title: AI/ML Engineer
+
+Summary:
+4+ years building production AI systems, LLM integrations, and modern front-end experiences.
+
+Experience:
+- AI Platform Engineer at Acme (2021-2024)
+- ML Researcher at Labs (2019-2021)
+
+Skills:
+Python, PyTorch, TensorFlow, FastAPI, Next.js, React, Tailwind, Framer Motion
+
+Contact:
+email@example.com
+www.example.com
