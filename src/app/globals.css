@@ -120,3 +120,51 @@ html {
   transition: left 0.9s ease;
 }
 .shine:hover::after { left: 120%; }
+
+/* ── Hero ambient blobs ──────────────────────────────────────────────────── */
+@keyframes blob1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33%       { transform: translate(28px, -22px) scale(1.07); }
+  66%       { transform: translate(-14px, 28px) scale(0.96); }
+}
+@keyframes blob2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  40%       { transform: translate(-22px, 18px) scale(1.05); }
+  70%       { transform: translate(18px, -28px) scale(0.97); }
+}
+@keyframes blob3 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50%       { transform: translate(22px, -22px) scale(1.06); }
+}
+.animate-blob1 { animation: blob1 13s ease-in-out infinite; }
+.animate-blob2 { animation: blob2 11s ease-in-out infinite; }
+.animate-blob3 { animation: blob3 15s ease-in-out infinite; }
+
+/* ── Glow text ───────────────────────────────────────────────────────────── */
+.glow-text {
+  filter: drop-shadow(0 0 22px rgba(34,211,238,0.35));
+}
+
+/* ── Animated gradient border ────────────────────────────────────────────── */
+@keyframes border-spin {
+  to { background-position: 300% center; }
+}
+.gradient-border {
+  background: linear-gradient(90deg, #22d3ee, #a78bfa, #f472b6, #22d3ee) 0% / 200%;
+  animation: border-spin 4s linear infinite;
+  padding: 1px;
+  border-radius: inherit;
+}
+
+/* ── Neon pulse ──────────────────────────────────────────────────────────── */
+@keyframes neon-pulse {
+  0%, 100% { box-shadow: 0 0 8px rgba(34,211,238,0.4), 0 0 24px rgba(34,211,238,0.15); }
+  50%       { box-shadow: 0 0 18px rgba(34,211,238,0.65), 0 0 48px rgba(34,211,238,0.25); }
+}
+.neon-pulse { animation: neon-pulse 2.4s ease-in-out infinite; }
+
+/* ── 3-D card perspective helper ─────────────────────────────────────────── */
+.card-3d {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}

@@ -1,0 +1,21 @@
+# Runtime dependencies
+npm install @react-three/drei@^10.7.7
+npm install @react-three/fiber@^8.18.0
+npm install @sanity/client@3.0.0
+npm install embla-carousel-react@7.0.0
+npm install framer-motion@10.12.16
+npm install groq@4.0.0
+npm install next@13.5.6
+npm install react@18.2.0
+npm install react-dom@18.2.0
+npm install three@^0.184.0
+
+# Dev dependencies
+npm install -D @types/node@20.14.15
+npm install -D @types/react@18.2.79
+npm install -D @types/react-dom@18.2.25
+npm install -D autoprefixer@10.4.14
+npm install -D postcss@8.4.24
+npm install -D tailwindcss@3.4.8
+npm install -D typescript@5.2.2
+npm install -D uipro-cli@^2.2.3
